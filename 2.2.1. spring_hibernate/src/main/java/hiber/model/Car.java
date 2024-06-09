@@ -54,6 +54,7 @@ public class Car {
     public User getUser() {
         return user;
     }
+
     @Override
     public String toString() {
         return "Car{" +
