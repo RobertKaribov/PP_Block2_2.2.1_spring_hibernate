@@ -9,5 +9,5 @@ public interface UserService {
     void add(User user);
     List<User> listUsers();
     @Transactional
-    User carsForUsers(String model, int series);
+    User findUserByCarModelAndSeries(String model, int series);
 }
