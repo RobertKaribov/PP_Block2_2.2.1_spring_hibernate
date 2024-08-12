@@ -63,7 +63,7 @@ public class Car {
                 ", series=" + series +
                 '}';
     }
-    public User setUser(User user) {
+    public User assignUser(User user) {
         this.user = user;
         return user;
     }

@@ -42,7 +42,7 @@ public class User {
               ", car=" + car +
               '}';
    }
-   public Car setCar(Car car) {
+   public Car assignCar(Car car) {
       this.car = car;
       return car;
    }
